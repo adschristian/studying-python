@@ -1,0 +1,25 @@
+2019-02-15 19:54:22.838684
+Resultado da votação
+
+Foram computados 21 votos.
+
+Jogador 10          6 votos       28.6%
+Jogador 19          1 votos        4.8%
+Jogador  8         10 votos       47.6%
+Jogador  9          4 votos       19.0%
+O melhor jogador foi o número 8, com 10 votos, correspondendo a 47.6% do total
+
+
+2019-02-16 16:11:46.901653
+Resultado da votação
+
+Foram computados 13 votos.
+
+Jogador 10          2 votos       15.4%
+Jogador 19          5 votos       38.5%
+Jogador  2          1 votos        7.7%
+Jogador  8          4 votos       30.8%
+Jogador  7          1 votos        7.7%
+O melhor jogador foi o número 19, com 5 votos, correspondendo a 38.5% do total
+
+
