@@ -31,7 +31,7 @@ class Retangulo:
         return self.__comprimento*self.__largura
     
     def perimetro(self):
-        return self.__comprimento*2 + self.__largura*2
+        return 2*(self.__comprimento+self.__largura)
 
 def main():
     medidas = None
