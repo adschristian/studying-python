@@ -2,6 +2,7 @@
 # Desenvolva um jogo da forca. O programa terá uma lista de palavras lidas de um arquivo texto e __escolherá uma aleatoriamente. O jogador poderá errar 6 vezes antes de ser enforcado.
 
 from random import choice
+from os import system
 
 class JogoDaForca:
 
@@ -62,9 +63,11 @@ class JogoDaForca:
 
         print('Jogo da forca')
         while self.__erros<6:
+            print('Erros: {}'.format(self.__erros))
             print('A palavra é: {}'.format(self.__amostra))
             print('Já foi: {}'.format(self.__mostrarJaFoi()))
             letra = input('Digite uma letra: ')
+            system('clear')
             self.__tentativa(letra)
             if self.__verifica():
                 print('Você venceu!!')
@@ -80,6 +83,7 @@ def main():
         op = input('[Enter] Continuar\n[0] Sair\nOpção: ')
         if op == '0':
             exit()
+        system('clear')
 
 if __name__=='__main__':
     main()
